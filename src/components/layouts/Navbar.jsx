@@ -9,10 +9,10 @@ function Navbar() {
   }
 
   return (
-    <header className="bg-gray-800 text-white p-4">
+    <header className="bg-primary text-black p-4">
       <div className="md:container mx-auto flex items-center justify-between">
         <div className="text-2xl font-bold">
-          My Portfolio
+          Widya Mustika
         </div>
         <nav>
           <ul className="flex space-x-4">
