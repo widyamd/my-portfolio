@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Header() {
+function TopHeader() {
     return (
         <div class="container md:mx-auto pt-20">
             
@@ -28,4 +28,4 @@ function Header() {
     )
 }
 
-export default Header
+export default TopHeader;
