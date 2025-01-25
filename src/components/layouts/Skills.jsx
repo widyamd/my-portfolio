@@ -2,7 +2,8 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 import { BsBootstrapFill } from "react-icons/bs";
 
 function Skills() {
@@ -10,7 +11,7 @@ function Skills() {
         dots: false,
         infinite: true,
         speed: 4000,
-        slidesToShow: 5,
+        slidesToShow: 6,
         autoplay: true,
         autoplaySpeed: 2000,
         cssEase: "linear",
@@ -48,51 +49,68 @@ function Skills() {
         <Slider {...settings}>
           {/* Skill 1 */}
           <div className="text-center">
-            <div className="flex items-center justify-center w-24 h-24 mx-auto bg-red-100 rounded-full shadow-lg">
-              <FaHtml5 className="text-6xl text-red-500" />
+            <div className="flex items-center justify-center w-[5rem] h-[5rem] mx-auto bg-white rounded-[30px] shadow-xl">
+              <FaHtml5 className="text-5xl text-red-500" />
             </div>
             <p className="mt-4 font-medium text-gray-700">HTML5</p>
           </div>
 
           {/* Skill 2 */}
           <div className="text-center">
-            <div className="flex items-center justify-center w-24 h-24 mx-auto bg-blue-100 rounded-full shadow-lg">
-              <FaCss3Alt className="text-6xl text-blue-500" />
+            <div className="flex items-center justify-center w-[5rem] h-[5rem] mx-auto bg-white rounded-[30px] shadow-xl">
+              <FaCss3Alt className="text-5xl text-blue-500" />
             </div>
             <p className="mt-4 font-medium text-gray-700">CSS3</p>
           </div>
 
           {/* Skill 3 */}
           <div className="text-center">
-            <div className="flex items-center justify-center w-24 h-24 mx-auto bg-yellow-100 rounded-full shadow-lg">
-              <FaJs className="text-6xl text-yellow-500" />
+            <div className="flex items-center justify-center w-[5rem] h-[5rem] mx-auto bg-white  rounded-[30px] shadow-xl">
+              <FaJs className="text-5xl text-yellow-500" />
             </div>
             <p className="mt-4 font-medium text-gray-700">JavaScript</p>
           </div>
 
           {/* Skill 4 */}
           <div className="text-center">
-            <div className="flex items-center justify-center w-24 h-24 mx-auto bg-blue-100 rounded-full shadow-lg">
-              <FaReact className="text-6xl text-blue-500" />
+            <div className="flex items-center justify-center w-[5rem] h-[5rem] mx-auto bg-white  rounded-[30px] shadow-xl">
+              <FaReact className="text-5xl text-blue-500" />
             </div>
-            <p className="mt-4 font-medium text-gray-700">React</p>
+            <p className="mt-4 font-medium text-gray-700">React Js</p>
           </div>
 
           {/* Skill 5 */}
           <div className="text-center">
-            <div className="flex items-center justify-center w-24 h-24 mx-auto bg-green-100 rounded-full shadow-lg">
-              <FaNodeJs className="text-6xl text-green-500" />
+            <div className="flex items-center justify-center w-[5rem] h-[5rem] mx-auto bg-white  rounded-[30px] shadow-xl">
+              <FaNodeJs className="text-5xl text-green-500" />
             </div>
             <p className="mt-4 font-medium text-gray-700">Node.js</p>
           </div>
 
           {/* Skill 6 */}
           <div className="text-center">
-            <div className="flex items-center justify-center w-24 h-24 mx-auto bg-purple-100 rounded-full shadow-lg">
-              <BsBootstrapFill className="text-6xl text-purple-500" />
+            <div className="flex items-center justify-center w-[5rem] h-[5rem] mx-auto bg-white  rounded-[30px] shadow-xl">
+              <BsBootstrapFill className="text-5xl text-purple-500" />
             </div>
             <p className="mt-4 font-medium text-gray-700">Bootstrap</p>
           </div>
+
+           {/* Skill 7 */}
+           <div className="text-center">
+            <div className="flex items-center justify-center w-[5rem] h-[5rem] mx-auto bg-white  rounded-[30px] shadow-xl">
+              <RiTailwindCssFill  className="text-5xl text-cyan-400" />
+            </div>
+            <p className="mt-4 font-medium text-gray-700">Tailwind</p>
+          </div>
+
+            {/* Skill 7 */}
+            <div className="text-center">
+            <div className="flex items-center justify-center w-[5rem] h-[5rem] mx-auto bg-white  rounded-[30px] shadow-xl">
+              <RiTailwindCssFill  className="text-5xl text-cyan-400" />
+            </div>
+            <p className="mt-4 font-medium text-gray-700">Tailwind</p>
+          </div>
+          
         </Slider>
       </div>
     </div>
