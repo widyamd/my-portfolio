@@ -68,6 +68,10 @@
   transition: opacity 2s ease;
 }
 
+.slick-list{
+  padding-top: 1rem!important;
+}
+
 /* Atur opacity untuk slide aktif */
 .slick-active {
   opacity: 1;
