@@ -40,3 +40,39 @@
 .slider-container .text-center:hover {
   transform: scale(1.1); /* Animasi saat hover */
 }
+
+/* SLICK *//* Menambahkan efek fade di sisi kanan dan kiri */
+.slick-track {
+  position: relative;
+}
+
+.slick-track::before,
+.slick-track::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10%; /* Lebar efek fade */
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Faded pada sisi kiri */
+  z-index: 2; /* Pastikan berada di atas slide */
+}
+
+.slick-track::after {
+  right: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Faded pada sisi kanan */
+}
+
+/* Atur opacity slide non-aktif */
+.slick-slide {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+/* Atur opacity untuk slide aktif */
+.slick-active {
+  opacity: 1;
+}
+
+.slider-container{
+  mask-image: linear-gradient(to left, transparent 0%, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 90%, transparent 100%);
+}

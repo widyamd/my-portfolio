@@ -8,6 +8,7 @@ import { BsBootstrapFill } from "react-icons/bs";
 
 function Skills() {
     const settings = {
+        arrows : false,
         dots: false,
         infinite: true,
         speed: 4000,
@@ -44,7 +45,7 @@ function Skills() {
 
   return (
     <div className="md:container md:mx-auto py-10 px-4">
-      <h2 className="text-2xl font-bold text-center mb-6">tools which i use on daily basis</h2>
+      <h2 className="text-2xl font-bold text-gray-600 text-center mb-6">Tools which i use on daily basis</h2>
       <div className="slider-container">
         <Slider {...settings}>
           {/* Skill 1 */}
@@ -103,13 +104,6 @@ function Skills() {
             <p className="mt-4 font-medium text-gray-700">Tailwind</p>
           </div>
 
-            {/* Skill 7 */}
-            <div className="text-center">
-            <div className="flex items-center justify-center w-[5rem] h-[5rem] mx-auto bg-white  rounded-[30px] shadow-xl">
-              <RiTailwindCssFill  className="text-5xl text-cyan-400" />
-            </div>
-            <p className="mt-4 font-medium text-gray-700">Tailwind</p>
-          </div>
           
         </Slider>
       </div>
