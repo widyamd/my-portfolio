@@ -46,7 +46,7 @@ function Skills() {
   };
 
   return (
-    <div className="md:container md:mx-auto pt-20 px-4">
+    <div className="md:container md:mx-auto pt-20">
       <h2 className="text-2xl text-gray-600 text-center mb-6">
         Tools which I use on a daily basis.
       </h2>
