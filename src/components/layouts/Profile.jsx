@@ -5,11 +5,11 @@ import { FaGithub } from "react-icons/fa";
 
 function Profile() {
     return (
-        <div className="container md:mx-auto pt-20 max-w-screen-xl bg-primary">
+        <div className="container md:mx-auto pt-20 max-w-screen-xl bg-primary-background">
 
             <div role="status" className="space-y-8 md:space-y-0 md:space-x-24 rtl:space-x-reverse md:flex md:items-center">
                 <div className="flex items-center justify-center w-full  rounded sm:w-80 dark:bg-gray-700">
-                    <div className="max-w-sm p-4 bg-white border border-gray-200  shadow-xl dark:bg-gray-800 dark:border-gray-700">
+                    <div className="max-w-sm p-4 bg-white shadow-xl">
                         <a href="#">
                             <img className="" src={myprofilpic} alt="Profile Picture" />
                         </a>
@@ -53,10 +53,10 @@ function Profile() {
                 </div>
 
                 <div className="w-full">
-                    <h1 className='text-header text-start mb-5'>
+                    <h1 className='text-header text-gray-700 text-start mb-5'>
                         Hallo..
                     </h1>
-                    <p className='text-start'>
+                    <p className='text-start text-gray-500'>
                         I am a Front-End Developer with three years of experience in a startup environment. Starting in graphic design, I built a foundation in
                         visual creativity before moving to web design, focusing on user-friendly interfaces.
                         <br /><br />
