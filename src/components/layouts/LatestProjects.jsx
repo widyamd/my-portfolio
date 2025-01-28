@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import asset1 from "../../assets/asset1.png";
-import asset2 from "../../assets/asset2.png";
-import asset3 from "../../assets/asset3.png";
+import asset1 from "../../assets/Asset1.png";
+import asset2 from "../../assets/Asset2.png";
+import asset3 from "../../assets/Asset3.png";
 import asset4 from "../../assets/asset7.png";
-import asset5 from "../../assets/asset5.png";
-import asset6 from "../../assets/asset6.png";
-
+import asset5 from "../../assets/Asset5.png";
+import asset6 from "../../assets/Asset6.png";
 
 function ImageEnlargable({ src, alt }) {
   const [isZoomed, setIsZoomed] = useState(false);
@@ -65,8 +64,7 @@ function LatestProjects() {
                     Zotify
                   </div>
                   <p className="text-gray-700 text-base">
-                  This project is about the stock market.
-
+                    This project is about the stock market.
                   </p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
@@ -92,19 +90,11 @@ function LatestProjects() {
                     Aire
                   </div>
                   <p className="text-gray-700 text-base">
-                  This project is about the stock market.
-
-
-
-
-
-
-
-
+                    This project is about the stock market.
                   </p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #stockmarket
                   </span>
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -126,22 +116,7 @@ function LatestProjects() {
                     Ifcontech
                   </div>
                   <p className="text-gray-700 text-base">
-                  This project is for a Malaysian company.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    This project is for a Malaysian company.
                   </p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
@@ -167,15 +142,7 @@ function LatestProjects() {
                     Zoomrah
                   </div>
                   <p className="text-gray-700 text-base">
-                  This project is for a umrah travel.
-
-
-
-
-
-
-
-
+                    This project is for a umrah travel.
                   </p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
@@ -201,15 +168,7 @@ function LatestProjects() {
                     RHB Islamic Bank
                   </div>
                   <p className="text-gray-700 text-base">
-                  This project is for a Malaysian islamic bank.
-
-
-
-
-
-
-
-
+                    This project is for a Malaysian islamic bank.
                   </p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
@@ -235,19 +194,11 @@ function LatestProjects() {
                     Tokenify
                   </div>
                   <p className="text-gray-700 text-base">
-                  This project is for a stock market.
-
-
-
-
-
-
-
-
+                    This project is for a stock market.
                   </p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                     #stockmarket
                   </span>
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
