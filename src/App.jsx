@@ -5,6 +5,7 @@ import Profile from './components/layouts/Profile'
 import Skills from './components/layouts/Skills'
 import WorkExperience from './components/layouts/WorkExperience'
 import LatestProjects from './components/layouts/LatestProjects'
+import Footer from './components/layouts/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Skills/>
       <WorkExperience/>
       <LatestProjects/>
+      <Footer/>
     </>
   )
 }

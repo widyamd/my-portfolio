@@ -49,7 +49,7 @@ function LatestProjects() {
         <div className="w-full max-w-7xl mx-auto px-4 md:px-6">
           <div className="flex flex-col justify-center divide-slate-200 [&>*]:py-16">
             <h2 className="text-2xl text-gray-600 text-center">
-              My Work Experience
+              My Latest Projects
             </h2>
 
             <div className="w-full mx-auto grid grid-cols-3 gap-4">
