@@ -34,7 +34,7 @@ function WorkExperience() {
                       Frontend Developer
                     </div>
                   </div>
-                  <div class="bg-white p-4 rounded border border-slate-200 text-slate-500 shadow ml-14 md:ml-44">
+                  <div class="bg-white p-4 rounded border border-slate-200 text-slate-500 text-left shadow ml-14 md:ml-44">
                     In the last three years, I ve contributed to web projects
                     alongside a skilled team, gaining valuable web development
                     experience. Our recent work includes developing stock market
@@ -60,7 +60,7 @@ function WorkExperience() {
                       Graphic & Web Designer{" "}
                     </div>
                   </div>
-                  <div class="bg-white p-4 rounded border border-slate-200 text-slate-500 shadow ml-14 md:ml-44">
+                  <div class="bg-white p-4 rounded border border-slate-200 text-slate-500 shadow ml-14 md:ml-44 text-left">
                     For one year I worked as a graphic & web designer, web
                     design projects were made for company profiles, while
                     graphic designs were made for school applications, social
@@ -86,7 +86,7 @@ function WorkExperience() {
                       Graphic Designer
                     </div>
                   </div>
-                  <div class="bg-white p-4 rounded border border-slate-200 text-slate-500 shadow ml-14 md:ml-44">
+                  <div class="bg-white p-4 rounded border border-slate-200 text-slate-500 shadow ml-14 md:ml-44 text-left">
                     I make web design assets. and graphic design needs such as
                     banners, advertisements for social media, and creating
                     certificates for seminar participants that are regularly
@@ -112,7 +112,7 @@ function WorkExperience() {
                       Call Center
                     </div>
                   </div>
-                  <div class="bg-white p-4 rounded border border-slate-200 text-slate-500 shadow ml-14 md:ml-44">
+                  <div class="bg-white p-4 rounded border border-slate-200 text-slate-500 shadow ml-14 md:ml-44 text-left">
                     Working part time as a call center 108 provides information
                     on telephone numbers registered with Telkom
                   </div>

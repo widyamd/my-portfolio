@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#f6f4f1', // Set warna latar belakang untuk bg-primary
+        primary: '#f6f4f1',
+        secondary: '#4b5563' // Set warna latar belakang untuk bg-primary
       },
     },
   },
